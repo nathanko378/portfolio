@@ -34,7 +34,7 @@ export default function AboutPage() {
           Around the same time, that interest in building began to shift toward{" "}
           <span className="font-semibold text-mist">programming</span>. I started
           exploring how software could be used to create
-          useful tools online,
+          useful tools and automate tedious tasks,
           which eventually led to a summer internship at{" "}
           <span className="font-semibold text-mist">CYC Motor</span>, an
           engineering startup. There, I helped build and train a{" "}

@@ -148,6 +148,31 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="space-y-4 border-t border-mist/10 pt-8">
+        <h2 className="text-xs uppercase tracking-[0.3em] text-haze">
+          Featured Project
+        </h2>
+        <div className="flex flex-wrap items-center justify-between gap-3 text-sm text-haze">
+          <div className="space-y-1">
+            <p className="text-base font-semibold text-mist">
+              Tech Layoffs vs Stock Impact Analysis
+            </p>
+            <p>
+              Streamlit dashboard exploring the correlation between layoffs and
+              market performance.
+            </p>
+          </div>
+          <a
+            href="https://tech-layoffs-stock-impact.streamlit.app/"
+            className="text-xs uppercase tracking-[0.25em] text-accent hover:text-mist"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View
+          </a>
+        </div>
+      </section>
+
       <section className="space-y-5 border-t border-mist/10 pt-8">
         <h2 className="text-xs uppercase tracking-[0.3em] text-haze">Stats</h2>
         <div className="space-y-6">
