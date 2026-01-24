@@ -2,6 +2,8 @@
   "name": "portfolio",
   "private": true,
   "scripts": {
+    "predev": "node scripts/count-lines.js",
+    "prebuild": "node scripts/count-lines.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

@@ -31,7 +31,7 @@ export default function HomePage() {
 
     const loadLines = async () => {
       try {
-        const response = await fetch("/api/lines");
+        const response = await fetch("/lines.json", { cache: "no-store" });
         if (!response.ok) return;
         const data = (await response.json()) as { lines: number };
         if (active) setTsLines(data.lines);
