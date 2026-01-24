@@ -4,7 +4,17 @@ export default function AboutPage() {
   return (
     <div className="space-y-12">
       <header className="space-y-4">
-        <p className="text-xs uppercase tracking-[0.3em] text-haze">About</p>
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <p className="text-xs uppercase tracking-[0.3em] text-haze">About</p>
+          <a
+            href="/resume.pdf"
+            className="text-xs uppercase tracking-[0.3em] text-accent hover:text-mist"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download Resume
+          </a>
+        </div>
         <h1 className="font-display text-4xl text-mist">Intro</h1>
         <p className="text-base leading-relaxed text-haze">
           Hi, I’m Nathan. I’ve always been drawn to{" "}
@@ -46,7 +56,134 @@ export default function AboutPage() {
         <h2 className="font-display text-2xl text-mist">
           Technical Experiences and Projects
         </h2>
-        <p className="text-sm text-haze">I’ll list these here soon.</p>
+        <div className="space-y-10 text-sm text-haze">
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <div>
+                <h3 className="text-base font-semibold text-mist">
+                  Engineering Intern
+                </h3>
+                <p className="text-xs uppercase tracking-[0.25em] text-haze">
+                  CYC Motor Ltd · Hong Kong
+                </p>
+              </div>
+              <span className="text-xs uppercase tracking-[0.25em] text-haze">
+                Jul 2025 – Aug 2025
+              </span>
+            </div>
+            <ul className="list-disc space-y-2 pl-5">
+              <li>
+                Built and deployed an AI-powered customer support chatbot using a
+                retrieval-augmented generation (RAG) pipeline over internal product
+                manuals, FAQs, and support documentation.
+              </li>
+              <li>
+                Designed prompt and persona engineering logic to control response
+                tone, reduce hallucinations, and ensure grounded answers from LLMs.
+              </li>
+              <li>
+                Integrated the chatbot into the company website, serving 2,000+
+                monthly user interactions and deflecting a significant portion of
+                human support tickets.
+              </li>
+              <li>
+                Built a B2B sales analytics dashboard in Excel to analyze revenue
+                by region, reseller, and time period for management reporting.
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <div>
+                <h3 className="text-base font-semibold text-mist">
+                  Varsity Squash Training Scheduler
+                </h3>
+                <p className="text-xs uppercase tracking-[0.25em] text-haze">
+                  Next.js · React · Supabase · OpenAI API
+                </p>
+              </div>
+              <span className="text-xs uppercase tracking-[0.25em] text-haze">
+                Oct 2025 – Present
+              </span>
+            </div>
+            <ul className="list-disc space-y-2 pl-5">
+              <li>
+                Collaborated in a team to build a full-stack scheduling platform,
+                matching varsity squash players into training sessions based on
+                availability and skill ratings.
+              </li>
+              <li>
+                Designed and implemented the PostgreSQL data model and AI-driven
+                scheduling pipeline using Supabase and the OpenAI API to generate
+                and manage optimized training sessions.
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <div>
+                <h3 className="text-base font-semibold text-mist">
+                  Tech Layoffs vs Stock Impact Analysis
+                </h3>
+              <p className="text-xs uppercase tracking-[0.25em] text-haze">
+                Python · Pandas · Streamlit · Altair
+              </p>
+            </div>
+            <span className="text-xs uppercase tracking-[0.25em] text-haze">
+              Aug 2025 – Nov 2025
+            </span>
+          </div>
+          <a
+            href="https://tech-layoffs-stock-impact.streamlit.app/"
+            className="inline-flex text-xs uppercase tracking-[0.25em] text-accent hover:text-mist"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Project
+          </a>
+          <ul className="list-disc space-y-2 pl-5">
+            <li>
+              Developed a Streamlit dashboard, analyzing and visualizing the
+              correlation between tech layoffs and stock impact.
+            </li>
+              <li>
+                Cleaned and merged 4,000+ global layoff records with Yahoo Finance
+                market data using Pandas, performing correlation analysis and
+                linear regression.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="space-y-4 border-t border-mist/10 pt-8">
+        <h2 className="font-display text-2xl text-mist">Skills</h2>
+        <div className="space-y-3 text-sm text-haze">
+          <div>
+            <span className="text-xs uppercase tracking-[0.25em] text-haze">
+              Languages
+            </span>
+            <p className="mt-2 text-mist">
+              Python, C/C++, SQL, JavaScript/TypeScript, HTML, CSS, Racket
+            </p>
+          </div>
+          <div>
+            <span className="text-xs uppercase tracking-[0.25em] text-haze">
+              Frameworks &amp; Tools
+            </span>
+            <p className="mt-2 text-mist">
+              Pandas, NumPy, Flask, React, Node.js, Git, VS Code, Pycharm, Excel
+            </p>
+          </div>
+          <div>
+            <span className="text-xs uppercase tracking-[0.25em] text-haze">
+              Spoken Languages
+            </span>
+            <p className="mt-2 text-mist">English, Cantonese, Mandarin</p>
+          </div>
+        </div>
       </section>
     </div>
   );
