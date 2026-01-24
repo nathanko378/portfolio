@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-navy text-mist font-body antialiased;
+}
+
+::selection {
+  background: #4ea0ff;
+  color: #070d18;
+}
+
+a {
+  text-decoration: none;
+}
