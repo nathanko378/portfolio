@@ -197,14 +197,19 @@ export default function HomePage() {
             </div>
           </div>
           <div className="grid gap-6 sm:grid-cols-2">
-            <div className="space-y-2">
+            <a
+              href="https://github.com/nathanko378/portfolio"
+              className="space-y-2 transition hover:text-mist"
+              target="_blank"
+              rel="noreferrer"
+            >
               <p className="text-xs uppercase tracking-[0.25em] text-haze">
                 Lines of TypeScript Powering This Website
               </p>
               <p className="font-display text-2xl text-accent">
                 {tsLines ?? "—"}
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </section>
