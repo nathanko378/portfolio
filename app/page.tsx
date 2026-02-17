@@ -62,7 +62,7 @@ export default function HomePage() {
             interested in the intersection of finance, data, and software.
           </p>
           <p className="text-sm uppercase tracking-[0.3em] text-haze">
-            Seeking: Summer 2026 roles
+            Seeking: Winter 2027 roles
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
