@@ -61,14 +61,14 @@ export default function AboutPage() {
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <div>
                 <h3 className="text-base font-semibold text-mist">
-                  Junior Technical Analyst
+                  Junior Technical Analyst (Co-op)
                 </h3>
                 <p className="text-xs uppercase tracking-[0.25em] text-haze">
                   Ontario Public Service · Toronto, ON
                 </p>
               </div>
               <span className="text-xs uppercase tracking-[0.25em] text-haze">
-                May 2026 – Aug 2026
+
               </span>
             </div>
             <ul className="list-disc space-y-2 pl-5">
