@@ -61,25 +61,79 @@ export default function AboutPage() {
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <div>
                 <h3 className="text-base font-semibold text-mist">
-                  Junior Technical Analyst (Co-op)
+                  Software QA &amp; Test Automation Developer
                 </h3>
                 <p className="text-xs uppercase tracking-[0.25em] text-haze">
-                  Ontario Public Service · Toronto, ON
+                  Government of Ontario · Toronto, ON
                 </p>
               </div>
               <span className="text-xs uppercase tracking-[0.25em] text-haze">
-
+                May 2026 - Present
               </span>
             </div>
             <ul className="list-disc space-y-2 pl-5">
-              <li>Summer 2026</li>
+              <li>
+                Designed and executed 100+ QA test cases for frontend user
+                interface projects, validating business requirements and
+                acceptance criteria through comprehensive functional and
+                regression testing in Azure DevOps.
+              </li>
+              <li>
+                Developed and maintained automated test cases using TypeScript
+                and Playwright framework, improving test coverage across
+                government web applications.
+              </li>
+              <li>
+                Conducted accessibility testing for AODA compliance using axe,
+                WAVE, and NVDA, identifying defects and documenting findings to
+                improve accessibility standards.
+              </li>
             </ul>
           </div>
           <div className="space-y-3">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <div>
                 <h3 className="text-base font-semibold text-mist">
-                  Engineering Intern
+                  Co-Founder / Lead Software Engineer
+                </h3>
+                <p className="text-xs uppercase tracking-[0.25em] text-haze">
+                  Aim High Tutoring · West Vancouver, BC
+                </p>
+              </div>
+              <span className="text-xs uppercase tracking-[0.25em] text-haze">
+                Sept 2024 - Present
+              </span>
+            </div>
+            <a
+              href="https://www.aimhightutoring.ca/"
+              className="inline-flex text-xs uppercase tracking-[0.25em] text-accent hover:text-mist"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Site
+            </a>
+            <ul className="list-disc space-y-2 pl-5">
+              <li>
+                Founded and scaled a peer-to-peer math tutoring business from 0
+                to 17 clients in 9 months, generating $15K+ CAD in revenue with
+                zero external funding.
+              </li>
+              <li>
+                Built a client acquisition pipeline with a JavaScript/HTML/CSS
+                landing page integrated with a PostgreSQL (Supabase) database,
+                improving conversion rate by 50%.
+              </li>
+              <li>
+                Managed end-to-end business operations across 3 tutors,
+                including hiring, scheduling, client onboarding, and finances.
+              </li>
+            </ul>
+          </div>
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <div>
+                <h3 className="text-base font-semibold text-mist">
+                  Software Engineer
                 </h3>
                 <p className="text-xs uppercase tracking-[0.25em] text-haze">
                   CYC Motor Ltd · Hong Kong
@@ -104,38 +158,6 @@ export default function AboutPage() {
                 monthly user interactions and deflecting a significant portion of
                 human support tickets.
               </li>
-              <li>
-                Built a B2B sales analytics dashboard in Excel to analyze revenue
-                by region, reseller, and time period for management reporting.
-              </li>
-            </ul>
-          </div>
-
-          <div className="space-y-3">
-            <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <div>
-                <h3 className="text-base font-semibold text-mist">
-                  Varsity Squash Training Scheduler
-                </h3>
-                <p className="text-xs uppercase tracking-[0.25em] text-haze">
-                  Next.js · React · Supabase · OpenAI API
-                </p>
-              </div>
-              <span className="text-xs uppercase tracking-[0.25em] text-haze">
-                Oct 2025 – Present
-              </span>
-            </div>
-            <ul className="list-disc space-y-2 pl-5">
-              <li>
-                Collaborated in a team to build a full-stack scheduling platform,
-                matching varsity squash players into training sessions based on
-                availability and skill ratings.
-              </li>
-              <li>
-                Designed and implemented the PostgreSQL data model and AI-driven
-                scheduling pipeline using Supabase and the OpenAI API to generate
-                and manage optimized training sessions.
-              </li>
             </ul>
           </div>
 
@@ -149,9 +171,6 @@ export default function AboutPage() {
                 Python · Pandas · Streamlit · Altair
               </p>
             </div>
-            <span className="text-xs uppercase tracking-[0.25em] text-haze">
-              Aug 2025 – Nov 2025
-            </span>
           </div>
           <a
             href="https://tech-layoffs-stock-impact.streamlit.app/"
@@ -174,6 +193,31 @@ export default function AboutPage() {
             </ul>
           </div>
 
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <div>
+                <h3 className="text-base font-semibold text-mist">
+                  Varsity Squash Training Scheduler
+                </h3>
+                <p className="text-xs uppercase tracking-[0.25em] text-haze">
+                  Next.js · React · Supabase · OpenAI API
+                </p>
+              </div>
+            </div>
+            <ul className="list-disc space-y-2 pl-5">
+              <li>
+                Collaborated in a team to build a full-stack scheduling platform,
+                matching varsity squash players into training sessions based on
+                availability and skill ratings.
+              </li>
+              <li>
+                Designed and implemented the PostgreSQL data model and AI-driven
+                scheduling pipeline using Supabase and the OpenAI API to generate
+                and manage optimized training sessions.
+              </li>
+            </ul>
+          </div>
+
         </div>
       </section>
 
@@ -185,7 +229,7 @@ export default function AboutPage() {
               Languages
             </span>
             <p className="mt-2 text-mist">
-              Python, C/C++, SQL, JavaScript/TypeScript, HTML, CSS, Racket
+              Python, SQL, TypeScript, C, HTML/CSS
             </p>
           </div>
           <div>
@@ -193,7 +237,7 @@ export default function AboutPage() {
               Frameworks &amp; Tools
             </span>
             <p className="mt-2 text-mist">
-              Pandas, NumPy, Flask, React, Node.js, Git, VS Code, Pycharm, Excel
+              Pandas, NumPy, scikit-learn, PostgreSQL, React, Git, Azure DevOps
             </p>
           </div>
           <div>
