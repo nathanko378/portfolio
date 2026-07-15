@@ -134,7 +134,7 @@ export default function HomePage() {
             </a>
           </div>
         </div>
-        <div className="flex justify-start md:justify-end">
+        <div className="hidden justify-start md:flex md:justify-end">
           <div className="relative h-36 w-40 overflow-hidden rounded-2xl sm:h-44 sm:w-48 md:h-52 md:w-56">
             <Image
               src="/headshot.PNG"
