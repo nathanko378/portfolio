@@ -68,64 +68,21 @@ export default function AboutPage() {
                 </p>
               </div>
               <span className="text-xs uppercase tracking-[0.25em] text-haze">
-                May 2026 - Present
+                May 2026 - Aug 2026
               </span>
             </div>
             <ul className="list-disc space-y-2 pl-5">
               <li>
-                Designed and executed 100+ QA test cases for frontend user
-                interface projects, validating business requirements and
-                acceptance criteria through comprehensive functional and
-                regression testing in Azure DevOps.
+                Designed and implemented agentic AI workflows and a reusable
+                prompt library to standardize common QA and testing tasks,
+                cutting repetitive manual effort and improving team-wide
+                productivity and consistency.
               </li>
               <li>
-                Developed and maintained automated test cases using TypeScript
-                and Playwright framework, improving test coverage across
-                government web applications.
-              </li>
-              <li>
-                Conducted accessibility testing for AODA compliance using axe,
-                WAVE, and NVDA, identifying defects and documenting findings to
-                improve accessibility standards.
-              </li>
-            </ul>
-          </div>
-          <div className="space-y-3">
-            <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <div>
-                <h3 className="text-base font-semibold text-mist">
-                  Co-Founder / Lead Software Engineer
-                </h3>
-                <p className="text-xs uppercase tracking-[0.25em] text-haze">
-                  Aim High Tutoring · West Vancouver, BC
-                </p>
-              </div>
-              <span className="text-xs uppercase tracking-[0.25em] text-haze">
-                Sept 2024 - Present
-              </span>
-            </div>
-            <a
-              href="https://www.aimhightutoring.ca/"
-              className="inline-flex text-xs uppercase tracking-[0.25em] text-accent hover:text-mist"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View Site
-            </a>
-            <ul className="list-disc space-y-2 pl-5">
-              <li>
-                Founded and scaled a peer-to-peer math tutoring business from 0
-                to 17 clients in 9 months, generating $15K+ CAD in revenue with
-                zero external funding.
-              </li>
-              <li>
-                Built a client acquisition pipeline with a JavaScript/HTML/CSS
-                landing page integrated with a PostgreSQL (Supabase) database,
-                improving conversion rate by 50%.
-              </li>
-              <li>
-                Managed end-to-end business operations across 3 tutors,
-                including hiring, scheduling, client onboarding, and finances.
+                Executed 100+ QA test cases across frontend UI projects within
+                an Agile delivery cycle, validating business requirements and
+                acceptance criteria through functional and regression testing,
+                tracked end-to-end in Azure DevOps.
               </li>
             </ul>
           </div>
@@ -150,13 +107,45 @@ export default function AboutPage() {
                 manuals, FAQs, and support documentation.
               </li>
               <li>
-                Designed prompt and persona engineering logic to control response
-                tone, reduce hallucinations, and ensure grounded answers from LLMs.
+                Integrated the chatbot into the company website, serving 2,000+
+                monthly user interactions, deflecting a significant portion of
+                human support tickets.
+              </li>
+            </ul>
+          </div>
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <div>
+                <h3 className="text-base font-semibold text-mist">
+                  Co-Founder / Lead Software Engineer
+                </h3>
+                <p className="text-xs uppercase tracking-[0.25em] text-haze">
+                  Aim High Tutoring · West Vancouver, BC
+                </p>
+              </div>
+              <span className="text-xs uppercase tracking-[0.25em] text-haze">
+                Sept 2024 - June 2025
+              </span>
+            </div>
+            <a
+              href="https://www.aimhightutoring.ca/"
+              className="inline-flex text-xs uppercase tracking-[0.25em] text-accent hover:text-mist"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Site
+            </a>
+            <ul className="list-disc space-y-2 pl-5">
+              <li>
+                Founded and scaled a peer-to-peer math tutoring business from 0
+                to 18 clients in 9 months, generating $15K+ CAD in revenue with
+                zero external funding.
               </li>
               <li>
-                Integrated the chatbot into the company website, serving 2,000+
-                monthly user interactions and deflecting a significant portion of
-                human support tickets.
+                Built a client acquisition pipeline with a JavaScript/HTML/CSS
+                landing page integrated with a PostgreSQL (Supabase) database
+                for lead capture and testimonial management, improving
+                conversion rate by 150%.
               </li>
             </ul>
           </div>

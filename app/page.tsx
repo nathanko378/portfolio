@@ -193,7 +193,7 @@ export default function HomePage() {
               <p className="text-xs uppercase tracking-[0.25em] text-haze">
                 Current City
               </p>
-              <p className="font-display text-2xl text-mist">Waterloo, ON</p>
+              <p className="font-display text-2xl text-mist">Toronto, ON</p>
             </div>
           </div>
           <div className="grid gap-6 sm:grid-cols-2">
