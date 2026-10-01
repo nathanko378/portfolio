@@ -61,7 +61,7 @@ export default function AboutPage() {
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <div>
                 <h3 className="text-base font-semibold text-mist">
-                  Software QA &amp; Test Automation Developer
+                  Technology Analyst
                 </h3>
                 <p className="text-xs uppercase tracking-[0.25em] text-haze">
                   Government of Ontario · Toronto, ON
@@ -73,16 +73,19 @@ export default function AboutPage() {
             </div>
             <ul className="list-disc space-y-2 pl-5">
               <li>
-                Designed and implemented agentic AI workflows and a reusable
-                prompt library to standardize common QA and testing tasks,
-                cutting repetitive manual effort and improving team-wide
-                productivity and consistency.
+                Designed and implemented AI-driven automation workflows and a
+                reusable prompt library to streamline software testing
+                processes, improving efficiency and consistency.
               </li>
               <li>
-                Executed 100+ QA test cases across frontend UI projects within
-                an Agile delivery cycle, validating business requirements and
-                acceptance criteria through functional and regression testing,
-                tracked end-to-end in Azure DevOps.
+                Analyzed business requirements and executed 100+ functional and
+                regression tests, identifying implementation issues and
+                supporting solution delivery in an Agile environment.
+              </li>
+              <li>
+                Bridged software and business teams to clarify requirements,
+                resolve implementation issues, and deliver reliable enterprise
+                software.
               </li>
             </ul>
           </div>
@@ -110,6 +113,11 @@ export default function AboutPage() {
                 Integrated the chatbot into the company website, serving 2,000+
                 monthly user interactions, deflecting a significant portion of
                 human support tickets.
+              </li>
+              <li>
+                Engineered the chatbot's retrieval pipeline and prompt
+                architecture to reduce hallucinations while delivering
+                context-aware answers across the company's product catalog.
               </li>
             </ul>
           </div>
@@ -142,10 +150,13 @@ export default function AboutPage() {
                 zero external funding.
               </li>
               <li>
-                Built a client acquisition pipeline with a JavaScript/HTML/CSS
-                landing page integrated with a PostgreSQL (Supabase) database
-                for lead capture and testimonial management, improving
-                conversion rate by 150%.
+                Developed a client acquisition platform using
+                Javascript/PostgreSQL (Supabase) for lead capture and
+                testimonial management, improving conversion rates by 150%.
+              </li>
+              <li>
+                Managed operations for a team of 4 tutors, overseeing hiring,
+                scheduling, client onboarding, and finances.
               </li>
             </ul>
           </div>
@@ -154,10 +165,10 @@ export default function AboutPage() {
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <div>
                 <h3 className="text-base font-semibold text-mist">
-                  Tech Layoffs vs Stock Impact Analysis
+                  Tech Layoff Stock Impact Predictor
                 </h3>
               <p className="text-xs uppercase tracking-[0.25em] text-haze">
-                Python · Pandas · Streamlit · Altair
+                Python, Pandas, Streamlit, scikit-learn, XGBoost
               </p>
             </div>
           </div>
@@ -171,13 +182,12 @@ export default function AboutPage() {
           </a>
           <ul className="list-disc space-y-2 pl-5">
             <li>
-              Developed a Streamlit dashboard, analyzing and visualizing the
-              correlation between tech layoffs and stock impact.
+               Built an end-to-end ML pipeline predicting stock drawdowns from tech layoff events using 4,000+ records
+              merged with Yahoo Finance data via Pandas.
             </li>
               <li>
-                Cleaned and merged 4,000+ global layoff records with Yahoo Finance
-                market data using Pandas, performing correlation analysis and
-                linear regression.
+                Deployed an interactive Streamlit dashboard visualizing model predictions, SHAP feature importance, and
+performance metrics (AUC-ROC, precision/recall).
               </li>
             </ul>
           </div>
