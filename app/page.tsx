@@ -158,7 +158,7 @@ export default function HomePage() {
               Tech Layoffs Stock Impact Predictor
             </p>
             <p>
-              Machine learning dashboard predicting stock drawdonws following tech layoffs, built with Streamlit.
+              Machine learning dashboard predicting stock drawdowns following tech layoffs, built with Streamlit.
             </p>
           </div>
           <a
