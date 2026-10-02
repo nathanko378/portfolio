@@ -155,11 +155,10 @@ export default function HomePage() {
         <div className="flex flex-wrap items-center justify-between gap-3 text-sm text-haze">
           <div className="space-y-1">
             <p className="text-base font-semibold text-mist">
-              Tech Layoffs vs Stock Impact Analysis
+              Tech Layoffs Stock Impact Predictor
             </p>
             <p>
-              Streamlit dashboard exploring the correlation between layoffs and
-              market performance.
+              Machine learning dashboard predicting stock drawdonws following tech layoffs, built with Streamlit.
             </p>
           </div>
           <a
